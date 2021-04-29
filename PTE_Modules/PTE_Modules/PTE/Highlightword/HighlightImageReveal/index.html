@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Highlight Characters</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="js/rangy-core.js"></script>
+    <script src="js/rangy-cssclassapplier.js"></script>
+    <script>
+    var cssApplier;
+    window.onload = function() {
+        rangy.init();
+        cssApplier = rangy.createCssClassApplier("someClass", true); // true turns on normalization
+    };
+    $(function() {
+      $(document).mouseup(function() {
+        cssApplier.toggleSelection();
+      });
+    });
+  </script>
+  
+  <style>
+    .someClass { background:red center 180px fixed no-repeat; }
+  </style>
+</head>
+
+<body>
+    
+	<div id="page-wrap">
+	
+	  <h1>Highlight Text Below (And DIE)</h1>
+
+		<p>
+      Learn how to override the default text selection color with CSS.
+      Learn how to override the default text selection color with CSS.
+      Learn how to override the default text selection color with CSS.
+      Learn how to override the default text selection color with CSS.
+      Learn how to override the default text selection color with CSS.
+      Learn how to override the default text selection color with CSS.
+      Learn how to override the default text selection color with CSS.
+      Learn how to override the default text selection color with CSS.
+      Learn how to override the default text selection color with CSS.
+      Learn how to override the default text selection color with CSS.
+      Learn how to override the default text selection color with CSS.
+      Learn how to override the default text selection color with CSS.
+    </p>
+			
+	</div>
+	
+</body>
+
+</html>

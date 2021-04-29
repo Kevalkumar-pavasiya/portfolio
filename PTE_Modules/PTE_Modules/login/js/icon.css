@@ -1,0 +1,173 @@
+input[type="text"] {
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+
+.inputWithIcon input[type="text"] {
+  padding-left: 40px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 90%;
+  top: 8%;
+  padding: 9px 8px;  
+  transition: 0.3s;
+}
+
+
+.inputWithIcon.inputIconBg i {
+  border-radius: 4px 0 0 4px;
+}
+
+
+        .btn-theme1{
+            background-color:#fedc19;
+            border: none;
+            color:black;
+    }
+        .btn-theme1:hover{
+            
+            background-color:black;
+            border: none;
+            color:white;
+
+    }
+
+    #btnsin{
+        font-weight: 600;
+    }
+
+    #btn_forgot{
+        font-weight: 600;
+    }
+
+    #btn_otp{
+        font-weight: 600;
+    }
+     #btn_change{
+        font-weight: 600;
+    }
+     #btnlogin{
+        font-weight: 600;
+    }
+    #box{
+
+          background-color:#fedc19;
+       
+    }
+   
+    .btn-outline1{
+
+    border-radius: 3px;
+    padding: 6px 30px 6px 30px;
+    color: white;
+    background: black;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration:none;
+    
+    }
+    
+    .btn-outline1:hover{
+    text-decoration:none;
+    border-radius: 3px;
+    padding: 6px 30px 6px 30px;
+    color: black;
+    text-decoration-style:none;
+    background: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    
+    }
+
+    .fa{
+        color:black;
+        
+    
+    }
+    .fa:hover{
+        color:red;
+
+
+    }
+
+    #hide{
+      color: blue; 
+      text-decoration: none;
+    }
+    #hide1{
+      color:blue; 
+      text-decoration: none;
+    }
+    #hide1:hover{
+      color: black; 
+      text-decoration: none;
+    }
+    .h1{
+      color:black;
+    }
+
+    #label{
+        color:black; 
+        font-weight:600;
+       text-transform: capitalize;
+    }
+.col-qty > * {
+  vertical-align: middle; 
+}
+
+.col-qty > input {
+  max-width: 2.6em;
+}
+
+
+.layout-inline > * {
+  display: inline-block;
+}
+
+.col {
+  padding: 1em;
+  width: 12%;
+}
+
+.col-qty {
+    width: 22%;
+  }
+
+  a.qty{
+
+  width: 25px;
+  height:25px;
+  line-height: 1.5em;
+  border-radius: 2em;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  background: #43ace3;  
+  color: #fff;
+}
+
+a.qty:hover {
+  background: #fedc19;
+}
+    
+
+
+
+
+
+
